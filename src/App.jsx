@@ -1,12 +1,14 @@
 import './App.css'
+import FlightList from './components/FlightList';
 
 function App() {
   
   return (
-    <>
-      <h1>SpaceX Flights</h1>
-    </>
-  )
+    <div>
+      <h1>SpaceX Flights List</h1>
+      <FlightList/>
+    </div>
+  );
 }
 
 export default App

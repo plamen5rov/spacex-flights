@@ -1,0 +1,81 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+}
+.card,
+.card-body,
+.card-footer,
+.card-header {
+  text-decoration: none;
+  list-style-type: none;
+  /* background: rgb(250, 246, 246); */
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid rgb(97, 242, 247);
+  border-radius: 0.33rem;
+  max-width: 15rem;
+  min-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.card:hover {
+    /* transform: scale(1.025); */
+    border: 3px dotted hsl(182, 90%, 77%);
+    /* color: hsl(182, 90%, 77%); */
+
+}
+
+.card-header {
+  font-size: 1.5 rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-header img{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-height: 300px;
+    padding: 0;
+}
+.card-body {
+  font-size: 0.8rem;
+}
+.card-footer {
+  margin-top: 1rem;
+}
+
+.btn {
+  --color: hsl(194, 94%, 49%);
+  background: var(--color);
+  color: azure;
+  border: 1px solid white;
+  border-radius: 0.33rem;
+  padding: 0.5em 0.75em;
+  font-size: 1rem;
+  font-weight: bolder;
+  /* margin: 5px; */
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: hsl(194, 94%, 65%);
+}
+.btn-outline {
+  background: none;
+  border: 1px solid white;
+}
+
+.btn + .btn {
+margin-left: .77rem;
+}

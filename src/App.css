@@ -5,5 +5,22 @@
   text-align: center;
 }
 
+.App {
+  text-align: center;
+}
+
+*, *::before, *::after {
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(97, 242, 247);
+  background-image: url('https://cdn.mos.cms.futurecdn.net/rbfoDRrUVAF5GfccovJ9f7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  font-size: 12rem;
+}
 
 
