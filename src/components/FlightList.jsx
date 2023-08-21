@@ -34,7 +34,7 @@ function FlightList() {
           </div>
           <div className="card-footer">
             <button className="btn">Details</button>
-            <Link to={flight.links.article_link}><button className="btn btn-outline">More...</button></Link>
+            <Link to={flight.links.article_link} target="_blank" rel="noopener noreferrer"><button className="btn btn-outline">More...</button></Link>
           </div>
         </li>
       ))}
